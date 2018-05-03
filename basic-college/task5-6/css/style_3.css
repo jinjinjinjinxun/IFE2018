@@ -16,29 +16,31 @@ ul {
     list-style: none;
 }
 .clearfix::after {
-    content: ".";
+    content: "";
     display: block;
-    height: 0;
-    visibility: hidden;
     clear: both;
 }
 .clearfix {
     *zoom:1;
 }
-h1 {
-    padding: 1em;
+header {
+    height: 74px;
+    line-height: 74px;
     background: #848484;
+}
+header h1 {
+    margin: auto .7em;
     color: #fff;
 }
-main div {
-    height: 150px;
+section {
+    height: 116px;
     border-bottom: 1px solid #eaeaea;
 }
 h2 {
     float: left;
     margin-right: .5em;
     padding: 0 1em;
-    line-height: 150px;
+    line-height: 116px;
     background: #d6d6d6;
 }
 ul,
