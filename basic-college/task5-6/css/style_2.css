@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, lengend, input, textarea, p, blockquote, th, td, hr, button {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    background: #fff;
+    color: #333;
+}
+ul {
+    list-style: none;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    *zoom:1;
+}
+h1 {
+    float: left;
+    width: 194px;
+    height: 690px;
+    margin-right: 25px;
+    padding-top: 70px;
+    text-align: center;
+    background: #65a4fa;
+    color: #fff;
+}
+main {
+    float: left;
+}
+h2 {
+    margin-top: 1.2em;
+    margin-bottom: .8em;
+    line-height: 1.35;
+}
+h3 {
+    margin-top: .6em;
+    font-size: 1em;
+}
+li {
+    display: inline-block;
+    margin-right: 2.5em;
+}
+li span {
+    margin-right: .6em;
+    font-weight: 700;
+}
+
