@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>layout4-float</title>
+        <style>
+            /* 用float实现一个左右定宽，中间宽度自适应的三栏布局 */
+            body,
+            html {
+                margin: 0;
+                height: 100%;
+            }
+            .left,
+            .right {
+                width: 200px;
+                height: 100%;
+                background: #567;
+            }
+            .left {
+                float: left;
+            }
+            .right {
+                float: right;
+            }
+            .middle {
+                margin: 0 210px; /* 栏之间的距离是10px */
+                height: 100%;
+                background: #89a;
+            }
+        </style>
+    </head>
+    <body>
+        <!--这里三个div标签顺序的关键是要把中间栏div放在最后，左右两栏div顺序任意-->
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="middle"></div>
+    </body>
+</html>

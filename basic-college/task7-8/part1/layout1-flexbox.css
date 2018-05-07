@@ -1,0 +1,17 @@
+/* flexbox */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+}
+.left {
+    flex: 3;
+    background: #567;
+}
+.right {
+    flex: 7;
+    background: #89a;
+}

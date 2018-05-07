@@ -1,0 +1,22 @@
+/* position */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+.left,
+.right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.left {
+    left: 0;
+    width: 30%;
+    background: #567;
+}
+.right {
+    right: 0;
+    width: 70%;
+    background: #89a;
+}

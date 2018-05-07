@@ -1,0 +1,23 @@
+/* flexbox */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+}
+.left,
+.middle {
+    width: 200px;
+}
+.left {
+    background: #234;
+}
+.middle {
+    background: #567;
+}
+.right {
+    flex: 1;
+    background: #89a;
+}

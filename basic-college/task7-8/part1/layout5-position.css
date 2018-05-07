@@ -1,0 +1,25 @@
+/* position */
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+.left,
+.middle {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+}
+.left {
+    left: 0;
+    background: #234;
+}
+.middle {
+    left: 200px;
+    background: #567;
+}
+.right {
+    margin-left: 400px;
+    height: 100%;
+    background: #89a;
+}

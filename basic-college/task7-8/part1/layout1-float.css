@@ -1,0 +1,17 @@
+/* float + margin-left */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+.left {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background: #567;
+}
+.right {
+    margin-left: 30%; /* left width */
+    height: 100%;
+    background: #89a;
+}

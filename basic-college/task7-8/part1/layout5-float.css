@@ -1,0 +1,23 @@
+/* float */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+.left,
+.middle {
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+.left {
+    background: #234;
+}
+.middle {
+    background: #567;
+}
+.right {
+    margin-left: 400px;
+    height: 100%;
+    background: #89a;
+}

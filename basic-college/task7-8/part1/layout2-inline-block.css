@@ -1,0 +1,24 @@
+/* 双inline-block */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+body {
+    font-size: 0;   /* 消除空格的影响 */
+}
+.left,
+.right {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+.left {
+    width: 300px;
+    background: #89a;
+}
+.right {
+    width: calc(100% - 310px); /* 100% - (left width + distance between two columns) */
+    margin-left: 10px; /* distance between two columns */
+    background: #567;
+}

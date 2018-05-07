@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, lengend, input, textarea, p, blockquote, th, td, hr, button {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+ul,
+ol {
+    list-style: none;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #333;
+}
+.container {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    line-height: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-nav {
+    float: right;
+    padding-top: 10px;
+}
+.header-nav li {
+    display: inline-block;
+}
+.header-nav a {
+    margin-left: 6px;
+    color: #fff;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+    background: #6b3;
+}
+.banner .container {   
+    position: relative;
+}
+.slider-controls {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.slider-controls li {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 28px;
+    height: 34px;
+    margin-left: 5px;
+    border: 1px solid #000;
+    line-height: 34px;
+    background: #fff;
+    opacity: .5;
+}
+.slider-controls .active {
+    height: 50px;
+    opacity: .8;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+}
+.menu li {
+    float: left;
+    width: 106px;
+    height: 50px;
+    margin-top: 19px;
+    border: 1px solid #ddd;
+    border-radius: 18px 18px 0 0;
+    text-align: center;
+    line-height: 50px;
+    background: #eee;
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+.menu .active {
+    border-bottom-color: #fff;
+    background: #fff;
+}
+main .container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.content div {
+    flex: 1;
+    margin: 10px 10px 0 0;
+    padding: 80px;
+    border: 1px solid #ccc;
+}
+.content div:nth-of-type(1),
+.content div:nth-of-type(2) {
+    padding: 80px 108px;
+}
+footer {
+    width: 100%;
+    height: 120px;
+    background: #666;
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: center;
+    color: #fff;
+}

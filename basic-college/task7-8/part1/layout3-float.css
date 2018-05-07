@@ -1,0 +1,20 @@
+/* 双float */
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+.left,
+.right {
+    float: left;
+    height: 100%;
+}
+.left {
+    width: calc(100% - 310px); /* 100% - (right width + distance between two columns) */
+    margin-right: 10px; /* distance between two columns */
+    background: #89a;
+}
+.right {
+    width: 300px;
+    background: #567;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>layout4-position</title>
+        <style>
+            /* 用position实现一个左右定宽，中间宽度自适应的三栏布局 */
+            html,
+            body {
+                margin: 0;
+                height: 100%
+            }
+            .middle {
+                margin: 0 210px; /* 栏之间的距离是10px */
+                height: 100%;
+                background: #89a;
+            }
+            .left,
+            .right {
+                position: absolute;
+                top: 0;
+                width: 200px;
+                height: 100%;
+                background: #567;
+            }
+            .left {
+                left: 0;
+            }
+            .right {
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!--这里的三个div的顺序是可以任意调整的-->
+        <div class="middle"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+    </body>
+</html>
